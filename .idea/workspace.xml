@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1626b7e5-8428-4dad-8d11-959d39bb51dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoWithThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoGroups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoWithThreads$ConsumerRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoWithThreads.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemoWithCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemoWithCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemoWithCallback$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemoWithCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ProducerDemoWithCallback.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemo">
+  <component name="RunManager" selected="Application.ConsumerDemoWithThreads">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ConsumerDemo" />
       <module name="learning-kafka" />
@@ -63,8 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ProducerDemo" />
+    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ConsumerDemoGroups" />
+      <module name="learning-kafka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoWithThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ConsumerDemoWithThreads" />
       <module name="learning-kafka" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,10 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoWithThreads" />
+        <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
-        <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
   </component>
