@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1626b7e5-8428-4dad-8d11-959d39bb51dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoWithThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoGroups.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoWithThreads$ConsumerRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoWithThreads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot from 2019-10-02 11-58-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot from 2019-10-02 12-22-56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoAssignSeek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +38,16 @@
   </component>
   <component name="ProjectId" id="1ReOQbMjxU2VqIIMONegkVYxxBg" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.AbdelRaouf.kafka.tutorial_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,9 +61,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoWithThreads">
+  <component name="RunManager" selected="Application.ConsumerDemoAssignSeek">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ConsumerDemo" />
+      <module name="learning-kafka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ConsumerDemoAssignSeek" />
       <module name="learning-kafka" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,20 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoWithCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.AbdelRaouf.kafka.tutorial_1.ProducerDemoWithCallback" />
-      <module name="learning-kafka" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoAssignSeek" />
         <item itemvalue="Application.ConsumerDemoWithThreads" />
         <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ProducerDemoWithCallback" />
       </list>
     </recent_temporary>
   </component>
@@ -112,5 +119,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/AbdelRaouf/kafka/tutorial_1/ConsumerDemoAssignSeek.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
